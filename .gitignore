@@ -1,0 +1,15 @@
+# MOTH runtime output: alert logs and any capture/session files. They record
+# attacker IPs and interaction detail, so they don't belong in the repo.
+moth_alerts.log
+*.log
+moth_*.csv
+moth_*.json
+
+# Python
+__pycache__/
+*.py[cod]
+
+# OS clutter
+Thumbs.db
+desktop.ini
+.DS_Store
